@@ -1,0 +1,48 @@
+\documentclass[a4paper]{article}
+
+\usepackage{hyperref}
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\usepackage{tocloft}
+\addtocontents{toc}{\cftpagenumbersoff{section}}
+
+
+\title{Psicofísica do rejuvenescimento}
+\author{Jesus de Nazaré e Paulo de Tarso}
+
+\date{\today, versão 0.01- alfa}
+
+\usepackage{etoolbox}
+
+\makeatletter
+\pretocmd{\chapter}{\addtocontents{toc}{\protect\addvspace{15\p@}}}{}{}
+\pretocmd{\section}{\addtocontents{toc}{\protect\vspace{-3mm}}}{}{}
+\makeatother
+
+
+\begin{document}
+\maketitle
+
+
+
+\begin{abstract}
+Explicitação formal dos mecanismos psicofísicos responsáveis pelo empoderamento do indivíduo pelo próprio inconsciente.
+\end{abstract}
+
+\tableofcontents
+
+\section{Ponto de vista e propósito deste texto}
+
+\section{Energias interna e externa}
+\section{Despersonificação}
+\section{Ubiquidade das estruturas}
+\section{Aproveitamento eficiente}
+
+
+
+\end{document}
+
